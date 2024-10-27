@@ -2,7 +2,6 @@ package day5Practice;
 
 public class SumOfEvenOrOdd {
 	public static void main(String[] args) {
-		System.out.println("Execution starts from main method");
 		int limit = 10;
 		int sumEven = 0;
 		int sumOdd = 0;
@@ -16,7 +15,6 @@ public class SumOfEvenOrOdd {
 		}
 		System.out.println("Sum of even numbers: " + sumEven);
 		System.out.println("Sum of odd numbers: " + sumOdd);
-		System.out.println("Execution ended");
 
 	}
 
