@@ -8,9 +8,9 @@ public class SumOfEvenOrOdd {
 
 		for (int i = 1; i <= limit; i++) {
 			if (i % 2 == 0) {
-				sumEven = sumEven + i;
+				sumEven = sumEven + i; //sumEven+=i;
 			} else {
-				sumOdd = sumOdd + i;
+				sumOdd = sumOdd + i;//sumOdd+=i;
 			}
 		}
 		System.out.println("Sum of even numbers: " + sumEven);
