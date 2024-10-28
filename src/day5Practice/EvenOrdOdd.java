@@ -3,7 +3,7 @@ package day5Practice;
 
 public class EvenOrdOdd {
 	public static void main(String args[]) {
-		int number = 10;
+		int number = 20;
 		int sumEven = 0;
 		int sumOdd = 0;
 		System.out.println("The given number is: " + number);
